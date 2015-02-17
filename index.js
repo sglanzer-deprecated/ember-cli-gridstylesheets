@@ -18,7 +18,7 @@ module.exports = {
   
   contentFor: function(type, config) {
     if (type === "head") {
-      // Empty script tag fixes a bug in GSS 2.0.0
+      // Empty script tag works around a bug in GSS 2.0.0
       return '<link rel="stylesheet" type="text/gss" href="assets/' + this.app.name + '.gss"></link><script src="gss"></script>'
     }
   }
