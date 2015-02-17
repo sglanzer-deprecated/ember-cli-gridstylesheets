@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-gridstylesheets",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "GridStyleSheets integration for Ember",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -35,9 +35,15 @@
     "glob": "^4.0.5"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "gridstylesheets",
+    "gss"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "dependencies": {
+    "broccoli-concat": "0.0.12",
+    "broccoli-merge-trees": "^0.2.1"
   }
 }
